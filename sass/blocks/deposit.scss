@@ -1,0 +1,61 @@
+.deposit {
+  position: relative;
+  margin-top: -30px;
+  background-color: #fff;
+  &__text{
+    padding: 30px 40px 0;
+    p {
+      color: $light-blue-text;
+      margin-bottom: 25px;
+      line-height: 1.4;
+    }
+  }
+  &__address {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    h1 {
+      margin: 0 auto;
+      width: 80%;
+      text-align: center;
+      border-top: 1px solid $light-blue-text;
+      color: $blue-header-qr;
+      font-size: 21pt;
+      font-weight: normal;
+      padding: 30px;
+    }
+    p {
+      color: #7f7f7f;
+      font-size: 12pt;
+      margin-bottom: 10px;
+    }
+    img {
+    margin-bottom: 30px;
+    }
+  }
+
+  &__link {
+    font-size: 18pt;
+    color: $green-link;
+    padding: 5px 35px;
+    border: 1px solid #7f7f7f;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  span {
+    display: block;
+    font-size: 10pt;
+    color: #7f7f7f;
+    margin-bottom: 35px;
+  }
+  &__arrea {
+    width: 40%;
+    margin: 0 auto;
+    padding: 24px 35px;
+    border: 1px solid #7f7f7f;
+  }
+  p {
+    color: $light-blue-text;
+    text-align: justify;
+  }
+}

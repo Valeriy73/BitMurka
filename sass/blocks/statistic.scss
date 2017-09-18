@@ -1,0 +1,32 @@
+.statistic{
+  background-color: #fff;
+  padding-top: 80px;
+  margin-top: -30px;
+  text-align: center;
+  position: relative;
+  z-index: 15;
+  &-item {
+    display: inline-block;
+    width: 33%;
+    &__img {
+      width: 150px;
+      height: 150px;
+      border: 15px solid $orange-border-statistic;
+      margin: 0 auto;
+      border-radius: 40px;
+      margin-bottom: 20px;
+      &--men {
+        background: url("../img/icon-men-siluet.png") center center no-repeat;
+      }
+      &--bitcoin {
+        background: url("../img/icon-bitcoin.png") center center no-repeat;
+      }
+      background: url("../img/icon-bitcoin-big.png") center center no-repeat;
+    }
+    p {
+      font-size: 18pt;
+      color: $light-blue-text;
+      margin-bottom: 120px;
+    }
+  }
+}

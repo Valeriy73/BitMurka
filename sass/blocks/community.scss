@@ -1,0 +1,41 @@
+.community {
+  height: 95px;
+  background-color: $dark-blue;
+  width: 100%;
+  color: #fff;
+  padding-top: 25px;
+  &-count {
+    margin-left: 72px;
+    background-image: url(../img/icon-man.png);
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    float: left;
+    width: 30%;
+    &__text {
+
+      font-size: 14pt;
+      line-height: 1.4;
+      span {
+        font-size: 18pt;
+      }
+    }
+  }
+  &-rating {
+    width: 30%;
+    float: left;
+    &__img {
+      float: left;
+      margin-right: 20px;
+    }
+    &__text {
+      margin-bottom: 5px;
+    }
+    &__star {
+      ul{
+        li{
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

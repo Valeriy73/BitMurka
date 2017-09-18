@@ -1,0 +1,35 @@
+.timer {
+  height: 222px;
+  background-image: url("../img/section-bg.jpg");
+  margin-top: -20px;
+  padding-top: 78px;
+  text-align: center;
+  &-text {
+    width: 49%;
+    float: left;
+    h3 {
+      font-size: 21pt;
+      color: $orange-border-statistic;
+      text-transform: uppercase;
+      font-weight: normal;
+      margin-bottom: 35px;
+    }
+    p {
+      color: #fff;
+      font-size: 16pt;
+      line-height: 1.4;
+    }
+  }
+  &-timer {
+    width: 49%;
+    float: left;
+    padding-top: 27px;
+    text-align: left;
+  }
+  &-counter {
+    width: 395px;
+    height: 122px;
+    background: #000;
+    margin: 0 auto 0 0
+  }
+}
